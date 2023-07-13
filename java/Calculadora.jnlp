@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jnlp spec="1.0+" codebase="https://keneth-huerta.github.io/Cubo-Enfocado/java" href="Calculadora.jnlp"></jnlp>
-<information>
-    <title>Demostración de aplicación de Calculadora</title>
-    <vendor>Keneth</vendor>
-    <description>Una calculadora</description>
-</information>
-<resources>
-    <j2se version="8.0+"/>
-    <jar href="Calculadora.jar"/>
-</resources>
-<application-desc main-class="Calculadora"></application-desc>
+<jnlp spec="1.0+" codebase="https://keneth-huerta.github.io/Cubo-Enfocado/java"
+    href="Calculadora.jnlp">
+    <information>
+        <title>Demostración de aplicación de Calculadora</title>
+        <vendor>Keneth</vendor>
+        <description>Una calculadora</description>
+    </information>
+    <resources>
+        <j2se version="8.0+" />
+        <jar href="Calculadora.jar" />
+    </resources>
+    <application-desc main-class="Calculadora"></application-desc>
 </jnlp>
