@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Gilden</title>
-    
+
     <style>
       html {
         color: #000;
@@ -107,7 +107,7 @@
       h5,
       h6 {
         -moz-outline-style: none ou;
-        -webkit-outline-style:none;
+        -webkit-outline-style: none;
         outline-style: none;
         border: 0px;
       } /*input[type="Submit"]{cursor:pointer;}*/
@@ -207,9 +207,6 @@
       <br />
       <p>Buena suerte...</p>
     </div>
-    <script>
-      alert("Esto no es parte de la escuela");
-    </script>
     <script type="text/javascript">
       Spacedots = new (function () {
         var isMobile =
@@ -241,7 +238,7 @@
         var time = 0;
 
         var velocity = { x: -1.5, y: 1 };
-        var difficulty = 100;
+        var difficulty = 1;
 
         this.init = function () {
           canvas = document.getElementById("world");
@@ -656,7 +653,7 @@
       function Enemy() {
         this.position = { x: 0, y: 0 };
         this.size = 6 + Math.random() * 4;
-        this.force = 1 + Math.random() * 0.4;
+        this.force = 1 + Math.random() * .4;
       }
       Enemy.prototype = new Point();
       /****/
@@ -676,6 +673,5 @@
 
       Spacedots.init();
     </script>
-    
   </body>
 </html>
