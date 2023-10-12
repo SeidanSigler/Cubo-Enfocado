@@ -10,6 +10,12 @@ body {
 .subtitulo {
   color: #c5a08d;
 }
+#principal{
+  max-width: 990px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
 #tema {
   display: grid;
   grid-template: "body accent" minmax(24em, auto) / 62.5% 37.5%;
