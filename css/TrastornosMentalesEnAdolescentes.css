@@ -1,50 +1,44 @@
-body {
-  color: #c9c2c0;
-  font-family: "Gelasio";
+body{
+  padding: 0;
   margin: 0;
-  background-color: #464342;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.titulo {
-  color: #ceab98;
-}
-.subtitulo {
-  color: #c5a08d;
-}
-#principal{
-  max-width: 990px;
+#title {
+  font-size: 50px;
   display: flex;
   justify-content: center;
-  margin: auto;
+  text-shadow: 3px 2px 6px;
+  font-family: "Broadway";
+
 }
-#tema {
-  display: grid;
-  grid-template: "body accent" minmax(24em, auto) / 62.5% 37.5%;
+nav {
+  display: flex;
+  justify-content: center;
 }
-#temaD {
-    padding: 85.5px 67.5px;
-    max-width: 588.13px;
-    max-height: 602.08px;
-    
+ul {
+  background-color: #d56a17;
+  list-style-type: none;
+  margin: 0;
+  padding: 0 121px 0 118px;
 }
-#temaD1{
-    max-width: 483px;
-    max-height: 202px;
+li{
+  float: left;
+  border-radius: 6px;
+  background: -webkit-linear-gradient(left, #ff8c00, #d56a17);
+  padding: 10px 0 10px 0px;
 }
-#temaD2{
-    max-width: 453.13px;
-    max-height: 201.58px;
-    font-size: 1.2em;
-    word-wrap: break-word;
-    border-width: 0;
-    border-style: solid;
-    box-sizing: border-box;
-    line-height: 1.5em;
+li a {
+  text-decoration: none;
+  padding: 10px;
+  color: black;
 }
-#temaI{
-    padding: 18px;
-    width: 316px;
-    height: 566px;
-    padding: 18px;
-    border-radius: 30px;
-    object-fit: cover;
+li a:hover,
+.desplegable:hover {
+  background: -webkit-linear-gradient(left, #d56a17, #ff8c00);
+  border-radius: 6px;
+}
+#img{
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
 }
